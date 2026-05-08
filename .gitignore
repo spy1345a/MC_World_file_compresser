@@ -1,0 +1,55 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# ─── Minecraft world data (never commit these) ────────────────────────────────
+*.mca
+*.mcworld
+*.nbt
+world/
+worlds/
+test_world*/
+backup*/
+saves/
+
+# ─── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ─── OS junk ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ─── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── All hidden directories (dot dirs) ───────────────────────────────────────
+.*/ 
+
+# ─── Exceptions — keep these dot files ───────────────────────────────────────
+!.gitignore
+!.gitkeep

@@ -1,0 +1,2 @@
+anvil-parser>=0.2.0   # reads/writes .mca region files
+nbtlib>=2.0.4         # NBT tag parsing (InhabitedTime etc.)
